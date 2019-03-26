@@ -114,4 +114,6 @@
 
 #img_tel { width: 20px; height: 20px; }
 
-#font_calendari { font-size: 20pt; float: right;}
+#dies_semana {  color: rgb(119, 118, 123); background-color: rgb(0, 218, 191); }
+
+#font_calendari { font-size: 20pt;}
