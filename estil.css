@@ -110,7 +110,7 @@
 
 #img_tel { width: 20px; height: 20px; margin-left: 20px; background-color: rgb(255, 80, 61); padding: 20px;}
 
-#contingut_calendar { background-color: rgb(253, 253, 251); border: solid 2px rgb(194, 205, 207)  ; margin: 50px 200px; height: 550px;}
+#contingut_calendar { background-color: rgb(253, 253, 251); border: solid 2px rgb(194, 205, 207)  ; margin: 50px 200px; height: 590px;}
 
 #contingut_today { margin: 20px;}
 
@@ -118,8 +118,33 @@
 
 #july { margin-left: 250px; font-size: 25pt; color: rgb(146, 154, 156); font-weight: bold;}
 
-#call { background-color: rgb(255, 80, 61); font-weight: bold; width: 90px; padding: 20px; }
+#call { background-color: rgb(255, 80, 61); color: white; font-weight: bold; width: 90px; padding: 20px; margin-left: 20px; }
 
-#dies_semana { font-size: 20pt; color: rgb(123, 119, 110); background-color: rgb(0, 218, 191); letter-spacing: 12px; margin-left: 150px; padding: 5px;  }
+#dies_semana { font-size: 20pt; color: rgb(123, 119, 110); background-color: rgb(0, 218, 191); word-spacing: 47px; margin-left: 160px; padding: 5px;  }
 
-#img_cal { margin: 20px 0px 5px 50px;}
+#img_cal { width: 20px; height: 20px; margin-left: 20px; margin-top: 30px; background-color: rgb(255, 80, 61); padding: 20px; }
+
+#test { background-color: rgb(255, 80, 61); color: white; font-weight: bold; width: 90px; padding: 20px;position: relative; top: 30px; right: 64px;}
+
+#semana1 { font-size: 20pt; color: rgb(123, 119, 110); background-color: white; word-spacing: 50px; margin-left: 40px; padding: 5px;}
+
+#semana2 { font-size: 20pt; color: rgb(123, 119, 110); background-color: white; word-spacing: 39px; margin-left: 429px; padding: 5px;}
+
+#semana3 { font-size: 20pt; color: rgb(123, 119, 110); background-color: white; word-spacing: 35px; margin-left: 420px; padding: 5px;}
+
+#semana4 { font-size: 20pt; color: rgb(123, 119, 110); background-color: white; word-spacing: 35px; margin-left: 420px; padding: 5px;}
+
+#semana5 { font-size: 20pt; color: rgb(123, 119, 110); background-color: white; word-spacing: 35px; margin-left: 420px; padding: 5px;}
+
+.num { color: white; font-weight: bold; border: solid 2px rgb(161, 160, 165); background-color: rgb(255, 80, 61);}
+
+#txt_test { background-color: rgb(228, 228, 230); font-size: 10pt; font-weight: bold; position: relative; left: 20px; padding: 8px; width: 200px;}
+
+#texte_test { width: 350px; background-color: rgb(228, 228, 230); font-size: 10pt; position: relative; left: 20px; text-align: justify;}
+
+#boto_change { background-color: rgb(0, 213, 189); font-size: 10pt; font-weight: bold; color: rgb(12, 149, 139); border: none; padding: 10px 20px; text-align: center; margin-left: 30px; }
+
+#boto_done { background-color: rgb(255, 80, 62); font-size: 10pt; font-weight: bold; color: white; border: none; padding: 10px 20px; text-align: center; margin-right: 150px;}
+
+
+/* ------------------------------------------------------------------- QUART APARTAT ------------------------------------------------------------------- */
