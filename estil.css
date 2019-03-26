@@ -1,0 +1,117 @@
+#principal { font-family: Arial, Helvetica, sans-serif;}
+
+
+/* ------------------------------------------------------------------- PRIMER APARTAT ------------------------------------------------------------------- */
+
+
+#primer_apartat { width: 1300px; height: 674px; background-color: white; font-weight: bold; }
+
+#head { width: 1300px; float: left; border-bottom: solid rgb(223, 224, 229) 0.5px; }
+
+.lletra_capçalera { font-size: 11.22pt; }
+
+.lletra_cos { font-size: 16.5pt; color: rgb(134, 134, 134); position: absolute;}
+
+#nom_aplicacio { margin-left: 30px; margin-right: 360px;} 
+
+#primerElipse { width: 25px; height: 25px; position: absolute; top: 10px; left: 790px; }
+
+#segonElipse { width: 25px; height: 25px; position: absolute; top: 125px; left: 360px; }
+
+#tercerElipse { width: 25px; height: 25px; position: absolute; top: 125px; left: 670px; }
+
+#quartElipse { width: 25px; height: 25px; position: absolute; top: 125px; left: 980px; }
+
+#cinqueElipse { width: 25px; height: 25px; position: absolute; top: 300px; left: 360px; }
+
+.numeros { color: white; position: absolute; font-size: 11pt; }
+
+#img_exclamacio { position: absolute; top: 145px; left: 120px; width: 100px; height: 100px; }
+
+#img_calendar { position: absolute; top: 145px; left: 430px; width: 100px; height: 100px; }
+
+#img_anelles { position: absolute; top: 145px; left: 740px; width: 100px; height: 100px; }
+
+#img_doc { position: absolute; top: 325px; left: 120px; width: 100px; height: 100px; }
+
+#img_carpeta { position: absolute; top: 325px; left: 430px; width: 100px; height: 100px; }
+
+#img_contacte { position: absolute; top: 325px; left: 740px; width: 100px; height: 100px; }
+
+#img_regal { position: absolute; top: 505px; left: 120px; width: 100px; height: 100px; }
+
+#img_rectangle { position: absolute; top: 475px; left:220px; }
+
+
+/* ------------------------------------------------------------------- SEGON APARTAT ------------------------------------------------------------------- */
+
+
+#segon_apartat { width: 1300px; height: 930px;}
+
+#head_segon_apartat { background-color: rgb(223, 224, 229); width: 1300px; height: 60px; }
+
+#img_exclamacio_petita { position: relative; top: 5px; left: 20px; width: 50px; height: 50px; }
+
+#titol_capçalera { margin-left: 40px; margin-bottom: 10px; font-size: 20pt; color: rgb(179, 179, 184); line-height: 60px; padding: 50px; }
+
+.capçalera_blocs { background-color: rgb(250, 250, 250); border: solid 1px rgb(219, 219, 219); width: 942px; height: 60px; margin: 20px 160px 0px; font-weight: bold;}
+
+#checkbox1 { margin: 20px; }
+
+#new_message { margin-left: 5px; color: white; background-color: rgb(255, 80, 63); line-height: 60px; padding: 22px;}
+
+#inbox { color: rgb(152, 152, 152); line-height: 60px; padding: 22px;}
+
+#sent { color: rgb(152, 152, 152); background-color: rgb(204, 204, 204); line-height: 60px; padding: 22px; }
+
+#search { float: right; font-size: 10pt; margin: 20px 0px 20px 30px; color: rgb(152, 152, 152); background-color: white; padding: 0px 17px 0px 17px; }
+
+#img_search{ width: 15px; height: 15px; float: right; margin: 20px 20px 20px 0px; background-color: white; padding: 0px 17px 0px 17px;}
+
+.missatges { background-color: rgb(250, 250, 250); border: solid 1px rgb(219, 219, 219); width: 942px; height: 60px; margin: 0px 160px 0px; }
+
+#elipse_petit { margin-left: 10px; width: 15px; height: 15px; padding: 1px;}
+
+.noms { padding: 1px; line-height: 60px; color: rgb(109, 109, 109); font-weight: bold; }
+
+.assumpte { line-height: 60px; color: rgb(109, 109, 109); margin-left: 100px; }
+
+.data { float: right; line-height: 60px; padding: 1px; margin-right: 60px; color: rgb(109, 109, 109);}
+
+.checkbox { margin: 20px; }
+
+.flexa {float: right; color: rgb(109, 109, 109); line-height: 60px; padding: 1px; margin-right: 20px; }
+
+#missatges_tancats { line-height: 60px; background-color: rgb(204, 204, 204); padding: 1px; float: right; font-size: 9pt; font-weight: bold; margin-right: 60px; color: rgb(152, 152, 152); }
+
+#contingut_missatge { background-color: rgb(248, 248, 248); border: solid 1px rgb(219, 219, 219); width: 942px; height: 230px; margin: 0px 160px 0px; }
+
+#titol_msg { font-size: 15pt; color: rgb(147, 147, 147); margin: 20px;}
+
+#cos_msg { font-size: 10pt; color: rgb(147, 147, 147); margin: 10px 70px 10px 20px;; text-align: justify;}
+
+#boto_reply { background-color: rgb(0, 213, 189); font-size: 10pt; font-weight: bold; color: rgb(12, 149, 139); border: none; padding: 10px 20px; text-align: center; float: right; margin-right: 10px; }
+
+#boto_delete { background-color: rgb(255, 80, 62); font-size: 10pt; font-weight: bold; color: white; border: none; padding: 10px 20px; text-align: center; float: right; margin-right: 50px;}
+
+#elipse_inbox { width: 25px; height: 25px; position: absolute; top: 750px; left: 450px;}
+
+
+/* ------------------------------------------------------------------- TERCER APARTAT ------------------------------------------------------------------- */
+
+
+#tercer_apartat { width: 1300px; height: 615px;}
+
+#head_tercer_apartat { background-color: rgb(223, 224, 229);  width: 1300px; height: 60px; }
+
+#img_calendari_petita { width: 50px; height: 50px; position: relative; top: 5px; left: 20px; }
+
+#img_dew {float: right; width: 200pt; height: 10pt; margin: 25px 15px;}
+
+#taula { margin: 50px 200px; border: solid 2px rgb(44, 74, 134); background-color: rgb(251, 252, 254);}
+
+#cridar { background-color: rgb(255, 80, 61); height: 10px; border-collapse: collapse;}
+
+#img_tel { width: 20px; height: 20px; }
+
+#font_calendari { font-size: 20pt; float: right;}
