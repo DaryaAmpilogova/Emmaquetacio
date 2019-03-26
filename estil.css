@@ -106,14 +106,20 @@
 
 #img_calendari_petita { width: 50px; height: 50px; position: relative; top: 5px; left: 20px; }
 
-#img_dew {float: right; width: 200pt; height: 10pt; margin: 25px 15px;}
+#img_dew {float: right; width: 200pt; height: 10pt; margin: 25px 15px; }
 
-#taula { margin: 50px 200px; border: solid 2px rgb(44, 74, 134); background-color: rgb(251, 252, 254);}
+#img_tel { width: 20px; height: 20px; margin-left: 20px; background-color: rgb(255, 80, 61); padding: 20px;}
 
-#cridar { background-color: rgb(255, 80, 61); height: 10px; border-collapse: collapse;}
+#contingut_calendar { background-color: rgb(253, 253, 251); border: solid 2px rgb(194, 205, 207)  ; margin: 50px 200px; height: 550px;}
 
-#img_tel { width: 20px; height: 20px; }
+#contingut_today { margin: 20px;}
 
-#dies_semana {  color: rgb(119, 118, 123); background-color: rgb(0, 218, 191); }
+#today { font-size: 18pt; font-weight: bold; color: rgb(146, 154, 156); margin: 60px;}
 
-#font_calendari { font-size: 20pt;}
+#july { margin-left: 250px; font-size: 25pt; color: rgb(146, 154, 156); font-weight: bold;}
+
+#call { background-color: rgb(255, 80, 61); font-weight: bold; width: 90px; padding: 20px; }
+
+#dies_semana { font-size: 20pt; color: rgb(123, 119, 110); background-color: rgb(0, 218, 191); letter-spacing: 12px; margin-left: 150px; padding: 5px;  }
+
+#img_cal { margin: 20px 0px 5px 50px;}
