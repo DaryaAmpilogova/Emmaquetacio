@@ -28,12 +28,18 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
+$(document).ready(function() {    
 
     // En clicar damunt el botó del DELETE, s'executarà el següent
-    $(".delete-message").click(function() {
+    $(".delete-message").click(function() {           
 
-        // Indiquem borrar el missatge sencer a través de la funció rmeove()
+        // Indiquem borrar el missatge sencer a través de la funció remove(). Utilitzarem el parent() per anar al pare del node actual
         $(this).parent().parent().parent().remove();
-    });
+
+        // Dins la següent variable emmagatzemem la quantitat de missatges que hi ha en total
+        var number = $(".block-messages").toArray().length;
+
+        // Ara canviem el nombre de misatges que tenim prèviament, per veure
+        $("#change-number").text(number);
+    });    
 });
