@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -168,7 +169,7 @@
                             <input type="checkbox" name="" id="">
                         </li>
                         <li>New Message</li>
-                        <li>Inbox</li>                        
+                        <li>Inbox</li>
                         <li>Sent</li>
                     </ul>
                     <div class="search">
@@ -177,399 +178,462 @@
                     </div>
 
                 </nav>
-                <div class="messages">
-                    <input type="checkbox" name="" id="" checked>
-                    <div class="user">
-                        <div class="user-status inactive"></div>
-                        <p class="user-name">John Snow</p>
-                    </div>
-                    <div class="message-title">
-                        <p>Hi Friend!!</p>
-                    </div>
-                    <div class="message-date">
-                        <p>12 April 2014</p>
-                    </div>
-                    <button class="open" id="first-button" onclick="closeOrOpen()">
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
-                <div class="message-content">
-                    <p>Hi Friend!!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
-                        iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
-                        ad?
-                    </p>
-                    <div class="btn-container">
-                        <button class="reply-message">REPLY</button>
-                        <button class="delete-message">DELETE</button>
-                    </div>
-                </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Richard Chaning</p>
-                    </div>
-                    <div class="message-title">
-                        <p>Memorial Clinic</p>
-                    </div>
-                    <div class="message-date">
-                        <p>12 April 2014</p>
-                    </div>
-                    <button class="close" id="second-button" onClick="closeOrOpen()">
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Elisabeth Bale</p>
-                    </div>
-                    <div class="message-title">
-                        <p>From Connecticut</p>
-                    </div>
-                    <div class="message-date">
-                        <p>21 June 2013</p>
-                    </div>
-                    <button class="close" onClick="closeOrOpen()">
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Sarah Connor</p>
-                    </div>
-                    <div class="message-title">
-                        <p>Cyberdyne Systems</p>
-                    </div>
-                    <div class="message-date">
-                        <p>20 June 2013</p>
-                    </div>
-                    <button class="close" onClick="closeOrOpen()">
-                        <i class="fas fa-sort-down"></i>
-                    </button>
-                </div>
-                <div class="messages">
-                    <input type="checkbox" name="" id="">
-                    <div class="user">
-                        <div class="user-status offline"></div>
-                        <p class="user-name">Arturo González</p>
-                    </div>
-                    <div class="message-title">
-                        <p>Recordatorio Consulta</p>
-                    </div>
-                    <div class="message-date">
-                        <p>20 June 2013</p>
-                    </div>
-                    <button class="close" onClick="closeOrOpen()">
-                        <i class="fas fa-sort-down"></i>
-                    </button>                    
-                </div>
-                <div class="messages">
-                    <p class="previously-messages">
-                        5 Previously Messages
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="reminders-calendar">
-            <div class="title">
-                <img src="img/reminders-calendar.png" alt="warning-icon">
-                <p>
-                    REMINDERS CALENDAR
-                </p>
-                <div class="format">
-                    <p>DAILY / WEEKLY / MONTHLY </p>
-                    <button>
-                        <img src="img/square.png" alt="square">
-                    </button>
-                    <button>
-                        <img src="img/list.png" alt="list">
-                    </button>
-                </div>
-            </div>
-            <div class="block-content">
-                <div class="today">
-                    <div class="date">
-                        <h5>TODAY</h5>
-                        <p>2 JULY / MONDAY</p>
-                    </div>
-                    <div class="reminder-title contact">
-                        <i class="fas fa-phone"></i>
-                        <div class="title-info">
-                            <p>Call Dr.Smith</p>
-                            <p>675 557 890</p>
+                <div class="block-messages">
+                    <div class="messages">
+                        <input type="checkbox" name="" id="" checked>
+                        <div class="user">
+                            <div class="user-status inactive"></div>
+                            <p class="user-name">John Snow</p>
                         </div>
-                    </div>
-                    <div class="reminder-title">
-                        <i class="far fa-calendar-alt"></i>
-                        <div class="title-info">
-                            <p>Ocular Test</p>
-                            <p>Memorial Clinic Miami</p>
+                        <div class="message-title">
+                            <p>Hi Friend!!</p>
                         </div>
-                        <button class="dismiss">
-                            <i class="fas fa-times"></i>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button class="open button-arrow">
+                            <i class="fas fa-sort-down"></i>
                         </button>
                     </div>
-                    <div class="reminder-content">
-                        <div class="date-time">
-                            2 JULY 2012 /
-                            <span class="time">14:30</span>
-                        </div>
-                        <div class="description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque sed ipsa debitis porro doloremque
-                                quo quos ut exercitationem. Eaque corporis magni tempore tempora blanditiis ad iusto, dignissimos
-                                nobis placeat?</p>
-                        </div>
-                        <div class="buttons">
-                            <button class="change">CHANGE</button>
-                            <button class="done">DONE</button>
+                    <div class="message-content">
+                        <p>Hi Friend!!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora eius modi ipsam aspernatur
+                            iure obcaecati, optio sed, dolores rerum, voluptates ea a unde aperiam accusamus omnis nam numquam
+                            ad?
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
                         </div>
                     </div>
                 </div>
+                <div class="block-messages">
+                    <div class="messages">
+                        <input type="checkbox" name="" id="">
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Richard Chaning</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Memorial Clinic</p>
+                        </div>
+                        <div class="message-date">
+                            <p>12 April 2014</p>
+                        </div>
+                        <button class="button-arrow">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content">
+                        <p>Memorial Clinic</p>
+                        <p>Curabitur ut lobortis sapien, non efficitur mauris. Duis tincidunt congue mauris, eget commodo justo
+                            eleifend ut. Vestibulum orci libero, pretium a tincidunt nec, porttitor sed ligula. Suspendisse
+                            at bibendum nibh. Cras ac velit vitae ex hendrerit consectetur porttitor in magna. Class aptent
+                            taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras porta, lectus
+                            eu mollis aliquam, odio arcu semper magna, sed facilisis leo enim nec sapien. Vestibulum quam
+                            orci, luctus a justo vitae, maximus bibendum felis. Class aptent taciti sociosqu ad litora torquent
+                            per conubia nostra, per inceptos himenaeos. Nullam et velit dapibus, laoreet odio eget, bibendum
+                            odio. Nulla eget dapibus lectus. Suspendisse potenti.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-messages">
+                    <div class="messages">
+                        <input type="checkbox" name="" id="">
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Elisabeth Bale</p>
+                        </div>
+                        <div class="message-title">
+                            <p>From Connecticut</p>
+                        </div>
+                        <div class="message-date">
+                            <p>21 June 2013</p>
+                        </div>
+                        <button class="button-arrow">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content">
+                        <p>From Connecticut</p>
+                        <p>Quisque sit amet lectus ac nulla suscipit maximus. Donec mollis quam varius lacus auctor, vel pellentesque
+                            mi condimentum. In vel finibus est. Fusce varius quis lorem at euismod. Sed ac porta urna, sit
+                            amet efficitur lorem. Vivamus bibendum mauris nec dui condimentum, ut finibus leo lacinia. Praesent
+                            interdum id lacus condimentum molestie. Aenean eu posuere libero, luctus dictum ipsum. Donec
+                            vel feugiat odio. Cras ac cursus odio. Vivamus eget fermentum ex.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-messages">
+                    <div class="messages">
+                        <input type="checkbox" name="" id="">
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Sarah Connor</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Cyberdyne Systems</p>
+                        </div>
+                        <div class="message-date">
+                            <p>20 June 2013</p>
+                        </div>
+                        <button class="button-arrow">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content">
+                        <p>Cyberdyne Systems</p>
+                        <p>Nam sagittis eleifend nunc sed euismod. Proin id mi orci. Pellentesque gravida scelerisque lectus
+                            efficitur blandit. Duis nec malesuada diam, lacinia iaculis ligula. Aliquam volutpat enim et
+                            augue suscipit gravida. Donec in gravida neque, nec lobortis sem. Quisque vestibulum condimentum
+                            scelerisque. Phasellus purus nisi, accumsan a lectus eu, volutpat finibus ipsum.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-messages">
+                    <div class="messages">
+                        <input type="checkbox" name="" id="">
+                        <div class="user">
+                            <div class="user-status offline"></div>
+                            <p class="user-name">Arturo González</p>
+                        </div>
+                        <div class="message-title">
+                            <p>Medical appointment</p>
+                        </div>
+                        <div class="message-date">
+                            <p>20 June 2013</p>
+                        </div>
+                        <button class="button-arrow">
+                            <i class="fas fa-sort-down"></i>
+                        </button>
+                    </div>
+                    <div class="message-content">
+                        <p>Medical appointment</p>
+                        <p>Suspendisse at lacus posuere arcu euismod blandit pharetra et ligula. Fusce ante turpis, cursus sit
+                            amet consectetur et, sollicitudin quis mauris. In a velit risus. Vivamus auctor sapien eu augue
+                            pellentesque, et consectetur lectus condimentum. Donec suscipit non ante eget maximus. Sed suscipit
+                            velit vel porttitor rhoncus. Integer at lectus eu nibh cursus placerat. Aenean eleifend arcu
+                            elit, vel facilisis dui luctus ac.
+                        </p>
+                        <div class="btn-container">
+                            <button class="reply-message">REPLY</button>
+                            <button class="delete-message">DELETE</button>
+                        </div>
+                    </div>
+                    <div class="messages">
+                        <p class="previously-messages">
+                            5 Previously Messages
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="reminders-calendar">
+                <div class="title">
+                    <img src="img/reminders-calendar.png" alt="warning-icon">
+                    <p>
+                        REMINDERS CALENDAR
+                    </p>
+                    <div class="format">
+                        <p>DAILY / WEEKLY / MONTHLY </p>
+                        <button>
+                            <img src="img/square.png" alt="square">
+                        </button>
+                        <button>
+                            <img src="img/list.png" alt="list">
+                        </button>
+                    </div>
+                </div>
+                <div class="block-content">
+                    <div class="today">
+                        <div class="date">
+                            <h5>TODAY</h5>
+                            <p>2 JULY / MONDAY</p>
+                        </div>
+                        <div class="reminder-title contact">
+                            <i class="fas fa-phone"></i>
+                            <div class="title-info">
+                                <p>Call Dr.Smith</p>
+                                <p>675 557 890</p>
+                            </div>
+                        </div>
+                        <div class="reminder-title">
+                            <i class="far fa-calendar-alt"></i>
+                            <div class="title-info">
+                                <p>Ocular Test</p>
+                                <p>Memorial Clinic Miami</p>
+                            </div>
+                            <button class="dismiss">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="reminder-content">
+                            <div class="date-time">
+                                2 JULY 2012 /
+                                <span class="time">14:30</span>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque sed ipsa debitis porro
+                                    doloremque quo quos ut exercitationem. Eaque corporis magni tempore tempora blanditiis
+                                    ad iusto, dignissimos nobis placeat?</p>
+                            </div>
+                            <div class="buttons">
+                                <button class="change">CHANGE</button>
+                                <button class="done">DONE</button>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="calendar">
-                    <div class="month">
-                        <p>&lt;</p>
-                        <p class="actual-month">
-                            <b>JULY 2014</b>
-                        </p>
-                        <p>&gt;</p>
+                    <div class="calendar">
+                        <div class="month">
+                            <p>&lt;</p>
+                            <p class="actual-month">
+                                <b>JULY 2014</b>
+                            </p>
+                            <p>&gt;</p>
+                        </div>
+                        <div class="week">
+                            <p>S</p>
+                            <p>M</p>
+                            <p>T</p>
+                            <p>W</p>
+                            <p>T</p>
+                            <p>F</p>
+                            <p>S</p>
+                        </div>
+                        <div class="days">
+                            <div class="day">
+                                <span>1</span>
+                            </div>
+                            <div class="day actual-day">
+                                <span>2</span>
+                            </div>
+                            <div class="day">
+                                <span>3</span>
+                            </div>
+                            <div class="day">
+                                <span>4</span>
+                            </div>
+                            <div class="day">
+                                <span>5</span>
+                            </div>
+                            <div class="day reminder-day">
+                                <span>6</span>
+                            </div>
+                            <div class="day">
+                                <span>7</span>
+                            </div>
+                            <div class="day">
+                                <span>8</span>
+                            </div>
+                            <div class="day">
+                                <span>9</span>
+                            </div>
+                            <div class="day">
+                                <span>10</span>
+                            </div>
+                            <div class="day">
+                                <span>11</span>
+                            </div>
+                            <div class="day">
+                                <span>12</span>
+                            </div>
+                            <div class="day">
+                                <span>13</span>
+                            </div>
+                            <div class="day">
+                                <span>14</span>
+                            </div>
+                            <div class="day">
+                                <span>15</span>
+                            </div>
+                            <div class="day reminder-day">
+                                <span>16</span>
+                            </div>
+                            <div class="day">
+                                <span>17</span>
+                            </div>
+                            <div class="day">
+                                <span>18</span>
+                            </div>
+                            <div class="day">
+                                <span>19</span>
+                            </div>
+                            <div class="day">
+                                <span>20</span>
+                            </div>
+                            <div class="day">
+                                <span>21</span>
+                            </div>
+                            <div class="day">
+                                <span>22</span>
+                            </div>
+                            <div class="day">
+                                <span>23</span>
+                            </div>
+                            <div class="day">
+                                <span>24</span>
+                            </div>
+                            <div class="day">
+                                <span>25</span>
+                            </div>
+                            <div class="day">
+                                <span>26</span>
+                            </div>
+                            <div class="day reminder-day">
+                                <span>27</span>
+                            </div>
+                            <div class="day">
+                                <span>28</span>
+                            </div>
+                            <div class="day">
+                                <span>29</span>
+                            </div>
+                            <div class="day">
+                                <span>30</span>
+                            </div>
+                            <div class="day">
+                                <span>31</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="week">
-                        <p>S</p>
-                        <p>M</p>
-                        <p>T</p>
-                        <p>W</p>
-                        <p>T</p>
-                        <p>F</p>
-                        <p>S</p>
+                </div>
+            </div>
+            <div class="circle-of-care">
+                <div class="title">
+                    <img src="img/ties2.png" alt="warning-icon">
+                    <p>
+                        CIRCLE OF CARE
+                    </p>
+                </div>
+                <div class="block-content">
+                    <div class="menu">
+                        <div>FIND</div>
+                        <div class="selected">MY CIRCLE OF CARE</div>
+                        <div>PENDING
+                            <span class="notifications">
+                                <p class="notification-number">1</p>
+                            </span>
+                        </div>
                     </div>
-                    <div class="days">
-                        <div class="day">
-                            <span>1</span>
+                    <div class="selected-content">
+                        <div class="drag-drop">
+                            <p>
+                                For organize Drag & Drop in the gropus
+                            </p>
                         </div>
-                        <div class="day actual-day">
-                            <span>2</span>
-                        </div>
-                        <div class="day">
-                            <span>3</span>
-                        </div>
-                        <div class="day">
-                            <span>4</span>
-                        </div>
-                        <div class="day">
-                            <span>5</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>6</span>
-                        </div>
-                        <div class="day">
-                            <span>7</span>
-                        </div>
-                        <div class="day">
-                            <span>8</span>
-                        </div>
-                        <div class="day">
-                            <span>9</span>
-                        </div>
-                        <div class="day">
-                            <span>10</span>
-                        </div>
-                        <div class="day">
-                            <span>11</span>
-                        </div>
-                        <div class="day">
-                            <span>12</span>
-                        </div>
-                        <div class="day">
-                            <span>13</span>
-                        </div>
-                        <div class="day">
-                            <span>14</span>
-                        </div>
-                        <div class="day">
-                            <span>15</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>16</span>
-                        </div>
-                        <div class="day">
-                            <span>17</span>
-                        </div>
-                        <div class="day">
-                            <span>18</span>
-                        </div>
-                        <div class="day">
-                            <span>19</span>
-                        </div>
-                        <div class="day">
-                            <span>20</span>
-                        </div>
-                        <div class="day">
-                            <span>21</span>
-                        </div>
-                        <div class="day">
-                            <span>22</span>
-                        </div>
-                        <div class="day">
-                            <span>23</span>
-                        </div>
-                        <div class="day">
-                            <span>24</span>
-                        </div>
-                        <div class="day">
-                            <span>25</span>
-                        </div>
-                        <div class="day">
-                            <span>26</span>
-                        </div>
-                        <div class="day reminder-day">
-                            <span>27</span>
-                        </div>
-                        <div class="day">
-                            <span>28</span>
-                        </div>
-                        <div class="day">
-                            <span>29</span>
-                        </div>
-                        <div class="day">
-                            <span>30</span>
-                        </div>
-                        <div class="day">
-                            <span>31</span>
+                        <div class="people">
+                            <div class="people-card">
+                                <div class="left-column-red"></div>
+                                <div class="user-detail">
+                                    <div class="name">
+                                        <p>
+                                            <b>Francis Fisher Williams</b>
+                                        </p>
+                                        <p>Graphic Designer</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/senior.png" alt="user-image">
+                                    </div>
+                                    <div class="message">
+                                        <button>
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="people-card">
+                                <div class="left-column-green"></div>
+                                <div class="user-detail">
+                                    <div class="name">
+                                        <p>
+                                            <b>Marie Kraft Smith</b>
+                                        </p>
+                                        <p>Doctor</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/senior.png" alt="user-image">
+                                    </div>
+                                    <div class="message-green">
+                                        <button>
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="people-card">
+                                <div class="left-column-red"></div>
+                                <div class="user-detail">
+                                    <div class="name">
+                                        <p>
+                                            <b>Dolores Vidal Taylor</b>
+                                        </p>
+                                        <p>Comercial</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/senior.png" alt="user-image">
+                                    </div>
+                                    <div class="message">
+                                        <button>
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="people-card">
+                                <div class="left-column-red"></div>
+                                <div class="user-detail">
+                                    <div class="name">
+                                        <p>
+                                            <b>Robbie Walker Jr.</b>
+                                        </p>
+                                        <p>CEO NY Memorial</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/senior.png" alt="user-image">
+                                    </div>
+                                    <div class="message">
+                                        <button>
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="people-card">
+                                <div class="left-column-green"></div>
+                                <div class="user-detail">
+                                    <div class="name">
+                                        <p>
+                                            <b>Vanessa Herrera Simons</b>
+                                        </p>
+                                        <p>Nurse</p>
+                                    </div>
+                                    <div class="image">
+                                        <img src="img/senior.png" alt="user-image">
+                                    </div>
+                                    <div class="message-green">
+                                        <button>
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="circle-of-care">
-            <div class="title">
-                <img src="img/ties2.png" alt="warning-icon">
-                <p>
-                    CIRCLE OF CARE
-                </p>
-            </div>
-            <div class="block-content">
-                <div class="menu">
-                    <div>FIND</div>
-                    <div class="selected">MY CIRCLE OF CARE</div>
-                    <div>PENDING
-                        <span class="notifications">
-                            <p class="notification-number">1</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="selected-content">
-                    <div class="drag-drop">
-                        <p>
-                            For organize Drag & Drop in the gropus
-                        </p>
-                    </div>
-                    <div class="people">
-                        <div class="people-card">
-                            <div class="left-column-red"></div>
-                            <div class="user-detail">
-                                <div class="name">
-                                    <p>
-                                        <b>Francis Fisher Williams</b>
-                                    </p>
-                                    <p>Graphic Designer</p>
-                                </div>
-                                <div class="image">
-                                    <img src="img/senior.png" alt="user-image">
-                                </div>
-                                <div class="message">
-                                    <button>
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="people-card">
-                            <div class="left-column-green"></div>
-                            <div class="user-detail">
-                                <div class="name">
-                                    <p>
-                                        <b>Marie Kraft Smith</b>
-                                    </p>
-                                    <p>Doctor</p>
-                                </div>
-                                <div class="image">
-                                    <img src="img/senior.png" alt="user-image">
-                                </div>
-                                <div class="message-green">
-                                    <button>
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="people-card">
-                            <div class="left-column-red"></div>
-                            <div class="user-detail">
-                                <div class="name">
-                                    <p>
-                                        <b>Dolores Vidal Taylor</b>
-                                    </p>
-                                    <p>Comercial</p>
-                                </div>
-                                <div class="image">
-                                    <img src="img/senior.png" alt="user-image">
-                                </div>
-                                <div class="message">
-                                    <button>
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="people-card">
-                            <div class="left-column-red"></div>
-                            <div class="user-detail">
-                                <div class="name">
-                                    <p>
-                                        <b>Robbie Walker Jr.</b>
-                                    </p>
-                                    <p>CEO NY Memorial</p>
-                                </div>
-                                <div class="image">
-                                    <img src="img/senior.png" alt="user-image">
-                                </div>
-                                <div class="message">
-                                    <button>
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="people-card">
-                            <div class="left-column-green"></div>
-                            <div class="user-detail">
-                                <div class="name">
-                                    <p>
-                                        <b>Vanessa Herrera Simons</b>
-                                    </p>
-                                    <p>Nurse</p>
-                                </div>
-                                <div class="image">
-                                    <img src="img/senior.png" alt="user-image">
-                                </div>
-                                <div class="message-green">
-                                    <button>
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
