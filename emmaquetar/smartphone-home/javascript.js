@@ -1,6 +1,12 @@
 // Les següents funcions s'executaràn un pic s'hagui carregat la pàgina, gràcies al .ready()
-
 $(document).ready(function() {
+    changeArrow();
+    deleteMessage();
+    lastMonth()
+    
+});
+
+function changeArrow() {
 
     // En clicar damunt el botó de la fletxa, s'executaràn el següent
     $(".button-arrow").click(function() {
@@ -25,10 +31,9 @@ $(document).ready(function() {
             $(this).parent().parent().children(".message-content").show();
         }
     });
-});
+}
 
-
-$(document).ready(function() {    
+function deleteMessage() {
 
     // En clicar damunt el botó del DELETE, s'executarà el següent
     $(".delete-message").click(function() {           
@@ -41,5 +46,13 @@ $(document).ready(function() {
 
         // Ara canviem el nombre de misatges que tenim prèviament, per veure
         $("#change-number").text(number);
-    });    
-});
+    }); 
+}
+
+function lastMonth() {
+
+}
+
+function nextMonth() {
+    
+}
