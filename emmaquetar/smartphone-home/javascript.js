@@ -2,7 +2,8 @@
 $(document).ready(function() {
     changeArrow();
     deleteMessage();
-    lastMonth()
+    lastMonth();
+    nextMonth();
     
 });
 
@@ -49,7 +50,8 @@ function deleteMessage() {
     }); 
 }
 
-month ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function lastMonth() {
 
@@ -57,4 +59,13 @@ function lastMonth() {
 
 function nextMonth() {
     
+}
+
+function currentDay() {
+    var today = new Date();
+    var dayWeekToday = today.getDay();
+    var dayToday = today.getDate();
+    var monthToday = today.getMonth();
+    var yearToday = today.getFullYear();
+    var 
 }
